@@ -257,3 +257,60 @@ header.sticky{
     transition: all .50s ease;
     cursor: pointer;
 }
+
+.box img{
+    margin-bottom: 20px;
+}
+
+.box h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.box p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: var(--other-color);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.box a{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 1.273em;
+    font-weight: 700;
+    padding: 7px 0;
+    color: var(--text-color);
+    border-bottom: 2px solid #5d6c83;
+    transition: all .50s ease;
+}
+
+.box i{
+    vertical-align: middle;
+    font-size: 25px;
+    color: var(--main-color);
+    margin-left: 5px;
+}
+
+.box a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+
+.box:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+}
+
+.portfolio{
+    background: var(--second-bg-color);
+}
+
+.Portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
