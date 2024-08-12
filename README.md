@@ -9,10 +9,8 @@ Crafted with HTML, CSS, and JavaScript, this is a personal portfolio website whi
 
 ## Usage
 
-1. Clone or download the repository to your local machine using: 'git clone https://github.com/AneleMaphalala/Portfolio_Website.gitt'.
+1. Clone or download the repository to your local machine using: 'git clone https://github.com/AneleMaphalala/Portfolio_Website.git'.
 2. Ensure you have HTML, CSS and JavaScript installed.
-
-## Dependencies
 
 
 
