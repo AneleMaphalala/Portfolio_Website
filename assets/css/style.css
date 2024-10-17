@@ -309,16 +309,17 @@ header.sticky{
 
 .Portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));;
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.2rem;
 }
 
 .row img{
-    height: auto;
+    height: 200px; 
     width: 100%;
     border-radius: 28px;
+    object-fit: cover; 
     margin-bottom: 1.4rem;
 }
 
@@ -329,6 +330,10 @@ header.sticky{
     box-shadow: 0 0 5px var(--main-color);
     padding: 20px;
     transition: all .50s ease;
+    height: 450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
 .main-row{
@@ -337,6 +342,7 @@ header.sticky{
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
+
 
 .row h5{
     font-size: 20px;
