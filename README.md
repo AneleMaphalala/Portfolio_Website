@@ -11,6 +11,7 @@ Crafted with HTML, CSS, and JavaScript, this is a personal portfolio website whi
 
 1. Clone or download the repository to your local machine using: 'git clone https://github.com/AneleMaphalala/Portfolio_Website.git'.
 2. Ensure you have HTML, CSS and JavaScript installed.
+3. To view the website: "https://anelemaphalalaportfolio.netlify.app/"
 
 
 
