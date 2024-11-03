@@ -208,6 +208,16 @@ header.sticky{
     box-shadow: 0 0 020px var(--main-color);
 }
 
+@media (max-width: 768px) {
+    .about-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+}
+
 .about-text h2{
     font-size: var(--h2-font);
     line-height: 1.3;
